@@ -1,0 +1,10 @@
+C:\Users\Alvaro\Desktop\VendinhadoJoao\obj\Debug\netcoreapp2.1\VendinhadoJoao.csprojAssemblyReference.cache
+C:\Users\Alvaro\Desktop\VendinhadoJoao\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfoInputs.cache
+C:\Users\Alvaro\Desktop\VendinhadoJoao\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfo.cs
+C:\Users\Alvaro\Desktop\VendinhadoJoao\bin\Debug\netcoreapp2.1\VendinhadoJoao.deps.json
+C:\Users\Alvaro\Desktop\VendinhadoJoao\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.json
+C:\Users\Alvaro\Desktop\VendinhadoJoao\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.dev.json
+C:\Users\Alvaro\Desktop\VendinhadoJoao\bin\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\Alvaro\Desktop\VendinhadoJoao\bin\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\Alvaro\Desktop\VendinhadoJoao\obj\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\Alvaro\Desktop\VendinhadoJoao\obj\Debug\netcoreapp2.1\VendinhadoJoao.pdb
