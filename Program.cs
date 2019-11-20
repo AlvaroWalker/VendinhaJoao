@@ -13,6 +13,7 @@ namespace VendinhadoJoao
 
         static void MenuP()
         {
+            Console.Clear();
             string menuitem;
 
             Console.WriteLine("");
@@ -38,11 +39,13 @@ namespace VendinhadoJoao
             }
         }
 
-        static void Menu1()
+        public static void Menu1()
         {
+            Console.Clear();
             string menuitem;
 
             Console.WriteLine("");
+            Console.WriteLine("Digite o numero para acessar a função desejada.");
             Console.WriteLine("1 - Cadastrar Cliente");
             Console.WriteLine("2 - Deletar Cliente");
             Console.WriteLine("3 - Listar Clientes");
@@ -52,7 +55,7 @@ namespace VendinhadoJoao
 
             if (menuitem == "1")
             {
-                Console.WriteLine("AQUI VAI CADASTRAR O CLIENTE");
+                MenuCadastro.CadastroMenu();
             }
             else if (menuitem == "2")
             {
@@ -74,9 +77,11 @@ namespace VendinhadoJoao
         }
         static void Menu2()
         {
+            Console.Clear();
             string menuitem;
 
             Console.WriteLine("");
+            Console.WriteLine("Digite o numero para acessar a função desejada.");
             Console.WriteLine("1 - Cadastrar Produto");
             Console.WriteLine("2 - Deletar Produto");
             Console.WriteLine("3 - Listar Produto");

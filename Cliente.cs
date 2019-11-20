@@ -4,13 +4,26 @@ using System.Text;
 
 namespace VendinhadoJoao
 {
-    class Cliente                    // utilizamos associação entre as classes Pessoa e Endereço.
+    public class Cliente                    // utilizamos associação entre as classes Pessoa e Endereço.
     {
-        public Pessoa pessoa;
-        public Endereco Endereco;
+        
+        new Endereco aendereco;
+        new Pessoa apessoa;
+
+
+        public string anome;
+        public int acodigo;
+        public string acontato;
 
         public void CadastrarCliente ()
         {
+
+
+
+            apessoa.nome = anome;
+            apessoa.codigo = acodigo;
+            apessoa.contato = acontato;
+
 
         }
         public void DeletaCliente ()
@@ -20,9 +33,8 @@ namespace VendinhadoJoao
         }
         public void ListaCliente ()
         {
+            
 
         }
     }
-    
-
 }

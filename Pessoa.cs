@@ -10,4 +10,6 @@ namespace VendinhadoJoao
         public string nome;
         public string contato;
     }
+
+
 }
