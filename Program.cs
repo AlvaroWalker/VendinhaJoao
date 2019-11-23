@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace VendinhadoJoao
@@ -11,7 +12,7 @@ namespace VendinhadoJoao
 
         }
 
-        static void MenuP()
+        public static void MenuP()
         {
             Console.Clear();
             string menuitem;
@@ -64,6 +65,56 @@ namespace VendinhadoJoao
             else if (menuitem == "3")
             {
                 Console.WriteLine("AQUI VAI LISTAR OS CLIENTES");
+
+                string arqclientes = @"C:\Projeto\Clientes.txt";
+
+                if (File.Exists(arqclientes))
+                {
+                    using (StreamReader arquivo = File.OpenText(arqclientes))
+                    {
+                        List<Cliente> listaAlunos = new List<Cliente>();
+
+                        while (arquivo.EndOfStream != true)
+                        {
+                            string linha = arquivo.ReadLine();
+
+                            int idx1 = linha.IndexOf(";", 0);
+                            int idx2 = linha.IndexOf(";", idx1 + 1);
+                            int idx3 = linha.Length;
+
+                            int tCodigo = idx1;
+                            int tNome = idx2 - idx1 - 1;
+                            int tMatricula = idx3 - idx2 - 1;
+
+                            string vCodigo = linha.Substring(0, idx1);
+                            string vNome = linha.Substring(idx1 + 1, tNome);
+                            string vMatricula = linha.Substring(idx2 + 1, tMatricula);
+
+                            Cliente objAluno = new Cliente();
+                            objAluno.acodigo = Convert.ToInt32(vCodigo);
+                            objAluno.anome = vNome;
+                            objAluno.acontato = vMatricula;
+
+                            listaAlunos.Add(objAluno);
+                        }
+
+                        foreach (var item in listaAlunos)
+                        {
+                            int codigo = item.acodigo;
+                            string nome = item.anome;
+                            string matricula = item.acontato;
+
+                            string texto = "Codigo=" + codigo + " Nome=" + nome + " Matrícula=" + matricula;
+
+                            Console.WriteLine(texto);
+                        }
+
+                        //Console.WriteLine(vCodigo);
+                        //Console.WriteLine(vNome);
+                        //Console.WriteLine(vMatricula);
+                    }
+                }
+
             }
             else if (menuitem == "0")
             {
@@ -75,6 +126,7 @@ namespace VendinhadoJoao
             }
 
         }
+
         static void Menu2()
         {
             Console.Clear();

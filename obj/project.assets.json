@@ -688,19 +688,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manu\\.nuget\\packages\\": {}
+    "C:\\Users\\Alvaro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manu\\Desktop\\VendinhaJoao-master\\VendinhadoJoao.csproj",
+      "projectUniqueName": "C:\\Users\\Alvaro\\Desktop\\VendinhadoJoao\\VendinhadoJoao.csproj",
       "projectName": "VendinhadoJoao",
-      "projectPath": "C:\\Users\\Manu\\Desktop\\VendinhaJoao-master\\VendinhadoJoao.csproj",
-      "packagesPath": "C:\\Users\\Manu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manu\\Desktop\\VendinhaJoao-master\\obj\\",
+      "projectPath": "C:\\Users\\Alvaro\\Desktop\\VendinhadoJoao\\VendinhadoJoao.csproj",
+      "packagesPath": "C:\\Users\\Alvaro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alvaro\\Desktop\\VendinhadoJoao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Manu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alvaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
