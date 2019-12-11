@@ -28,7 +28,7 @@ namespace VendinhadoJoao
             using (StreamWriter sw = File.CreateText(arqclientes))
             {
                 
-                sw.WriteLine(oi + cliente.acodigo + ";" + cliente.anome+ ";" + cliente.acontato + ";");
+                sw.WriteLine(oi + cliente.acodigo + ";" + cliente.anome+ ";" + cliente.acontato);
             }
 
             //apessoa.nome = anome;
@@ -44,6 +44,8 @@ namespace VendinhadoJoao
 
         {
 
+            //int codigo Console.ReadLine();
+
         }
         public void ListaCliente ()
         {
@@ -54,7 +56,7 @@ namespace VendinhadoJoao
                 string nome = item.anome;
                 string matricula = item.acontato;
 
-                string texto = "Codigo=" + codigo + " Nome=" + nome + " Matrícula=" + matricula;
+                string texto = "Codigo= " + codigo + " Nome= " + nome + " Contato= " + matricula;
 
                 Console.WriteLine(texto);
             }

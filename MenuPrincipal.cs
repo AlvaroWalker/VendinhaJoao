@@ -4,10 +4,11 @@ using System.Text;
 
 namespace VendinhadoJoao
 {
-    public class Contato
+    public class MenuPrincipal
     {
-        public int codigo;
-        public string nome;
-        public string email;
+        public void Menu()
+        {
+
+        }
     }
 }

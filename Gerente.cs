@@ -4,10 +4,8 @@ using System.Text;
 
 namespace VendinhadoJoao
 {
-    public class Contato
+    class Gerente
     {
-        public int codigo;
-        public string nome;
-        public string email;
+        private float percentualComissao;
     }
 }

@@ -14,10 +14,11 @@ namespace VendinhadoJoao
             //string menuitem;
             //new Cliente().CadastrarCliente();
 
-
+            string cebola; // inseri agora 28/11/2019.
             string nome,contato;
             int codigo;
-
+            
+            
             Console.WriteLine("");
             Console.Write("Digite o Nome do Cliente: ");
 
@@ -39,12 +40,33 @@ namespace VendinhadoJoao
             Console.WriteLine("Codigo: {0}", codigo);
             Console.WriteLine("Contato: {0}", contato);
 
-            string cebola;
-            Console.WriteLine("-----------------------------------------------------");
-            Console.WriteLine("Digite o numero para acessar a função desejada.");
-            Console.WriteLine("1 - Finalizar Cadastro");
-            Console.WriteLine("2 - Cancelar e Recomeçar");
-            Console.WriteLine("3 - Cancelar e Voltar ao Menu");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.SetCursorPosition(1, 1);
+            int cursorX = Console.CursorTop;
+            int cursorY = Console.CursorLeft;
+
+            Console.Write("");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ╔════════════════ MENU DE OPÇÕES ═══════════════╗    ");
+            Console.SetCursorPosition(40, Console.CursorTop + cursorY);
+            Console.Write(" ║ 1 FINALIZAR CADASTRO                          ║    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ║                                               ║    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ║ 2 CANCELAR E RECOMEÇAR                        ║    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ║                                               ║    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ║ 3 CANCELAR E VOLTAR AO MENU                   ║    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ║                                               ║    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ║ S SAIR - VOLTA PARA O MENU                    ║    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ╚═══════════════════════════════════════════════╝    ");
+            Console.SetCursorPosition(40, cursorY + Console.CursorTop);
+            Console.Write(" ");
+            Console.Write("     DIGITE UMA OPÇÃO : ");
             cebola = Console.ReadLine();
 
             if (cebola == "1")

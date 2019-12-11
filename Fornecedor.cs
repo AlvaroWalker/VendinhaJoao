@@ -4,15 +4,15 @@ using System.Text;
 
 namespace VendinhadoJoao
 {
-    class Fornecedor
+    public class Fornecedor
     {
         public int codigo;
         public string razaoSocial;
-        Contato contato;
+        public Contato contato;
 
-        public Fornecedor ()
+        /*public Fornecedor ()
         {
-            contato = new Contato();
+           //Contato contato = new Contato();
         }
         public void SetContato (string anome, string aemail, int acodigo)
 
@@ -31,7 +31,7 @@ namespace VendinhadoJoao
             Console.WriteLine(this.contato.email);
             Console.WriteLine();
         }
-    }
+   */ }
 
 
 

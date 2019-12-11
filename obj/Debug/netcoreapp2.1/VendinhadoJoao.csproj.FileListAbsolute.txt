@@ -18,3 +18,43 @@ C:\Users\Manu\Desktop\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao
 C:\Users\Manu\Desktop\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfo.cs
 C:\Users\Manu\Desktop\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.dll
 C:\Users\Manu\Desktop\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-master\bin\Debug\netcoreapp2.1\VendinhadoJoao.deps.json
+C:\Users\User\Documents\VendinhaJoao-master\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.json
+C:\Users\User\Documents\VendinhaJoao-master\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.dev.json
+C:\Users\User\Documents\VendinhaJoao-master\bin\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-master\bin\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.csprojAssemblyReference.cache
+C:\Users\User\Documents\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfoInputs.cache
+C:\Users\User\Documents\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfo.cs
+C:\Users\User\Documents\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-master\obj\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-master - Copia\bin\Debug\netcoreapp2.1\VendinhadoJoao.deps.json
+C:\Users\User\Documents\VendinhaJoao-master - Copia\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.json
+C:\Users\User\Documents\VendinhaJoao-master - Copia\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.dev.json
+C:\Users\User\Documents\VendinhaJoao-master - Copia\bin\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-master - Copia\bin\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-master - Copia\obj\Debug\netcoreapp2.1\VendinhadoJoao.csprojAssemblyReference.cache
+C:\Users\User\Documents\VendinhaJoao-master - Copia\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfoInputs.cache
+C:\Users\User\Documents\VendinhaJoao-master - Copia\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfo.cs
+C:\Users\User\Documents\VendinhaJoao-master - Copia\obj\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-master - Copia\obj\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-masterRev2\bin\Debug\netcoreapp2.1\VendinhadoJoao.deps.json
+C:\Users\User\Documents\VendinhaJoao-masterRev2\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.json
+C:\Users\User\Documents\VendinhaJoao-masterRev2\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.dev.json
+C:\Users\User\Documents\VendinhaJoao-masterRev2\bin\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-masterRev2\bin\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-masterRev2\obj\Debug\netcoreapp2.1\VendinhadoJoao.csprojAssemblyReference.cache
+C:\Users\User\Documents\VendinhaJoao-masterRev2\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfoInputs.cache
+C:\Users\User\Documents\VendinhaJoao-masterRev2\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfo.cs
+C:\Users\User\Documents\VendinhaJoao-masterRev2\obj\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-masterRev2\obj\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-masterRev3\bin\Debug\netcoreapp2.1\VendinhadoJoao.deps.json
+C:\Users\User\Documents\VendinhaJoao-masterRev3\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.json
+C:\Users\User\Documents\VendinhaJoao-masterRev3\bin\Debug\netcoreapp2.1\VendinhadoJoao.runtimeconfig.dev.json
+C:\Users\User\Documents\VendinhaJoao-masterRev3\bin\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-masterRev3\bin\Debug\netcoreapp2.1\VendinhadoJoao.pdb
+C:\Users\User\Documents\VendinhaJoao-masterRev3\obj\Debug\netcoreapp2.1\VendinhadoJoao.csprojAssemblyReference.cache
+C:\Users\User\Documents\VendinhaJoao-masterRev3\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfoInputs.cache
+C:\Users\User\Documents\VendinhaJoao-masterRev3\obj\Debug\netcoreapp2.1\VendinhadoJoao.AssemblyInfo.cs
+C:\Users\User\Documents\VendinhaJoao-masterRev3\obj\Debug\netcoreapp2.1\VendinhadoJoao.dll
+C:\Users\User\Documents\VendinhaJoao-masterRev3\obj\Debug\netcoreapp2.1\VendinhadoJoao.pdb

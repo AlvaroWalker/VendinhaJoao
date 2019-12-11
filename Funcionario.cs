@@ -1,20 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace VendinhadoJoao
 {
-    abstract class Funcionario              // Classe abstrata, será utilizada para herança entre as classes: Vendedor, Gerente, Entregador.
+    public abstract class Funcionario              // Classe abstrata, será utilizada para herança entre as classes: Vendedor, Gerente, Entregador.
     {
-        int codigo;
-        string nome;
-        int cpf;
-        string contato;
+        public int codigo;
+        public string nome;
+        public string cpf;
+        public string contato;
 
-        public abstract void Cadastrar();
-        public abstract void Excluir();
-        public abstract void Listar();
-        public abstract float CalculaComissao();      // Verificar a opção void, deve ter tipo float.
+
+        public void Cadastrar(List<Vendedor> list, Vendedor f1)
+        {
+
+            string arqvendedor = @"C:\Projeto\Funcionarios.txt";
+
+            StreamReader swo = File.OpenText(arqvendedor);
+            string oi = swo.ReadToEnd();
+            swo.Close();
+
+            using (StreamWriter sw = File.CreateText(arqvendedor))
+            {
+
+                sw.WriteLine(oi + f1.codigo + ";" + f1.nome + ";" + f1.contato + ";" + f1.cpf);
+            }
+        }
+
+        public void Excluir() { 
+        
+        }
+        public void Listar() { 
+        
+        }
+        public float CalculaComissao(float comissao) {
+
+            return comissao * 0.05f ;
+
+        }      // Verificar a opção void, deve ter tipo float.
     
 
     }
